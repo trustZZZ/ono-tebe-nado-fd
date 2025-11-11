@@ -1,1 +1,33 @@
 /* место для вашего кода */
+.header {
+
+}
+
+.cover {
+    margin-bottom: 180px;
+}
+
+.lots {
+    padding: 0 24px;
+}
+
+.card-lot-1 {
+    background: url("../images/card-lot-01.jpg");
+}
+
+.card-lot-2 {
+    background: url("../images/card-lot-02.jpg");
+}
+
+.card-lot-3 {
+    background: url("../images/card-lot-03.jpg");
+}
+
+.about {
+    padding: 0 24px;
+    margin-bottom: 180px;
+}
+
+.footer {
+
+}
