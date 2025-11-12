@@ -217,6 +217,59 @@
 .about {
     padding: 0 24px;
     margin-bottom: 180px;
+    display: grid;
+    grid-template-columns: 334px 1fr;
+}
+
+.about__logo {
+    width: 240px;
+    height: 240px;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 64px 42px 62px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.about__column {
+    margin-top: 133px;
+    margin-left: 25px;
+}
+
+.padding-extended {
+    padding-left: 5px;
+}
+
+.about__title {
+    font-family: "Raleway";
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 100px;
+    margin-top: 3px;
+    text-transform: uppercase;
+    
+}
+
+.about__text {
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 13px;
+}
+.about__logo-image {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .footer {
