@@ -1,10 +1,57 @@
 /* место для вашего кода */
 .header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px;
 
+}
+
+.header__links-list {
+    display: flex;
+    gap: 31px;
+}
+
+.header__links-list-item {
+    list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__logo {
+    width: 148px;
+    height: 105px;
+    padding: 2px 12px 7px 11px;
+}
+
+.header__logo-link {
+    display: block;
+}
+
+.address {
+    font-style: "Raleway";
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 240px;
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .cover {
     margin-bottom: 180px;
+    background-image: url("../images/cover.jpg");
+    min-height: 757px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.overlay {
+    
 }
 
 .lots {
