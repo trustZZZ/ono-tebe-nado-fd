@@ -9,11 +9,7 @@
 
 .header__links-list {
     display: flex;
-    gap: 31px;
-    font-family: "Raleway";
-    font-size: 18px;
-    font-weight: normal;
-    color: #000;
+    gap: 33px;
 }
 
 .header__links-list-item {
@@ -25,29 +21,41 @@
 }
 
 .header__link {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: normal;
+    color: #000;
     text-decoration: none;
     border-bottom: 1px #000 solid;
+    align-items: flex-start;
 }
 
 .header__link_active {
     border-bottom: none;
 }
 
-.header__logo-image {
-    width: 148px;
-    height: 105px;
-}
-
 .header__logo-link {
     display: block;
 }
 
+.header__logo {
+    width: 148px;
+    height: 105px;
+    padding: 0 6px 0px 5px;
+}
+
+.header__logo-image {
+    width: 100%;
+    height: 100%;
+}
+
 .address {
+    max-width: 240px;
+    height: 98px;
     font-family: "Raleway";
     font-size: 18px;
     line-height: 24px;
     font-weight: normal;
-    max-width: 240px;
     font-style: normal;
 }
 
@@ -88,11 +96,11 @@
     color: #fff;
     letter-spacing: 0.3em;
     font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 106px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 106px;
-    justify-content: space-evenly;
 }
 
 .aligned-text {
@@ -127,11 +135,11 @@
 }
 
 .letter-spacing-extended {
-    word-spacing: 0.9em;
+    letter-spacing: 0.9em;
 }
 
 .no-letter-spacing {
-    word-spacing: 0;
+    letter-spacing: 0;
 }
 .bet-button {
     padding: 12px 32px 11px 31px;
