@@ -41,7 +41,7 @@
 .header__logo {
     width: 148px;
     height: 105px;
-    padding: 0 6px 0px 5px;
+    padding: 0 5px;
 }
 
 .header__logo-image {
@@ -67,7 +67,7 @@
 }
 
 .cover {
-    margin-bottom: 184px;
+    margin-bottom: 178px;
     background-image: url("../images/cover.jpg");
     min-height: 757px;
     background-repeat: no-repeat;
@@ -131,18 +131,18 @@
     color: #fff;
     text-transform: uppercase;
     line-height: 28px;
-    word-spacing: 0.8em;
+    word-spacing: 19px;
 }
 
 .letter-spacing-extended {
-    letter-spacing: 0.9em;
+    letter-spacing: 23px;
 }
 
 .no-letter-spacing {
     letter-spacing: 0;
 }
 .bet-button {
-    padding: 12px 32px 11px 31px;
+    padding: 10px 30px 13px;
     border: 1px solid #fff;
     font-family: "Raleway";
     font-weight: bold;
@@ -174,6 +174,7 @@
     flex-wrap: wrap;
     gap: 25px;
     list-style: none;
+    margin-bottom: 30px;
 }
 
 .lots__card-list-item {
@@ -231,17 +232,17 @@
 }
 
 .lots__look-more-link {
-    display: block;
-    margin-top: 30px;
+    display: inline-block;
     margin-left: 40px;
     font-family: "Raleway";
     font-size: 20px;
     font-weight: normal;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
 }
 
 .about {
     padding: 0 24px;
-    margin-bottom: 180px;
     display: grid;
     grid-template-columns: 334px 1fr;
 }
@@ -260,12 +261,11 @@
 }
 
 .about__column {
-    margin-top: 133px;
-    margin-left: 25px;
-}
-
-.padding-extended {
-    padding-left: 5px;
+    padding: 133px 25px 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 180px;
 }
 
 .about__title {
@@ -273,23 +273,24 @@
     font-size: 40px;
     font-weight: bold;
     color: #000;
-    margin-bottom: 100px;
     margin-top: 3px;
     text-transform: uppercase;
     
 }
 
 .about__text {
-    font-family: "Raleway";
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
-    font-weight: normal;
-    line-height: 24px;
-    color: #000;
+    line-height: 1.2;
+
+    color: #000000;
+
     display: flex;
     flex-direction: column;
     gap: 24px;
     flex-wrap: wrap;
-    margin-bottom: 13px;
 }
 .about__logo-image {
     display: block;
