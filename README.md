@@ -1,1 +1,1 @@
-https://github.com/trustZZZ/ono-tebe-nado-fd.git
+https://github.com/trustZZZ/ono-tebe-nado-fd#
