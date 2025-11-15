@@ -34,9 +34,6 @@
 
 .header__logo-link {
   display: block;
-}
-
-.header__logo {
   width: 148px;
   height: 105px;
   padding: 0 5px;
@@ -51,18 +48,16 @@
   max-width: 240px;
   font-family: "Raleway", "Lato", sans-serif;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
   line-height: 24px;
   color: #000;
-}
-
-.header__address {
-  font-family: "Raleway", "Lato", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.header__address {
   justify-self: end;
-  line-height: 24px;
 }
 
 .cover {
@@ -278,7 +273,7 @@
 
 .about__text {
   font-family: "Raleway", "Lato", sans-serif;
-  font-style: normal;
+  font-weight: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
@@ -304,9 +299,6 @@
 }
 
 .footer__address {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   justify-items: start;
   max-width: 242px;
 }
@@ -318,7 +310,7 @@
 
 .footer__menu-list-item {
   font-family: "Raleway", "Lato", sans-serif;
-  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
