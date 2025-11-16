@@ -14,7 +14,7 @@
   list-style: circle;
 }
 
-.address__links-list-item_no-bullit {
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
@@ -49,6 +49,7 @@
   font-family: "Raleway", "Lato", sans-serif;
   font-size: 18px;
   font-weight: normal;
+  font-style: normal;
   line-height: 24px;
   color: #000;
   display: flex;
@@ -58,6 +59,17 @@
 
 .header__address {
   justify-self: end;
+}
+
+.address__link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  color: #000;
 }
 
 .cover {
